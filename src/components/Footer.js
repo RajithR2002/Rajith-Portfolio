@@ -26,8 +26,8 @@ export const Footer = () => {
 
         <Row>
           <Col size={12} className="credits text-center">
-            <p>
-             Banner Video by <a href="https://www.freepik.com/free-video/motion-graphic-gradient-blue-background_3293831#fromView=popular&page=2&position=45&uuid=2eaa838d-b11b-456d-b6af-481ac0c15dad">freepik</a>
+            <p>Banner Video by <a href="https://www.freepik.com/free-video/motion-graphic-gradient-blue-background_3293831#fromView=popular&page=2&position=45&uuid=2eaa838d-b11b-456d-b6af-481ac0c15dad"
+            style={{ color: 'inherit', textDecoration: 'none' }}>freepik</a>
             </p>
           </Col>
         </Row>
