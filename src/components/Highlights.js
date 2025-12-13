@@ -2,7 +2,6 @@ import RobloxLogo from '../assets/img/roblox-logo.png';
 import XLogo from '../assets/img/x-logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import { TypeBold } from 'react-bootstrap-icons';
 
 export const Highlights = () => {
 
@@ -14,15 +13,17 @@ return (
 <div class="masonry-grid mb-4">
 
     <div class="mb-4">
-        <div class="card text-dark">
-            <img class="card-img-top masonry-image" loading="auto" src={require('../assets/img/dawn-of-heroes.jpg')} alt="Dawn Of Heroes Cover Art" />
+        <div class="card community-card text-light p-3">
             <div class="card-body">
-                <h5 class="card-title text-center">Dawn of Heroes</h5>
-                <h6 class="card-subtitle text-center mb-3 text-muted">An Open-World PvP Superhero Game</h6>
+                <h2 class="card-title text-center mb-2"><i class="fas fa-users"></i></h2>
+                <h5 class="card-title text-center">Dawn Of Heroes Community</h5>
+                <h6 class="card-subtitle text-center mb-3">Founder and Manager</h6>
+
                 <p class="card-text text-center">
-                    <a class="text-reset" href="https://www.roblox.com/games/262050135/Dawn-Of-Heroes">Dawn of Heroes</a> has been played <strong>33 million</strong> times and has been featured on Roblox multiple times.
+                    Built and managed a <a class="text-reset" href="https://www.roblox.com/communities/2971038/Dawn-Of-Heroes-Community#!/about">community</a> of over <strong>125.4K members</strong>. Led communication, posted development updates, and maintained long-term engagement around the Dawn Of Heroes franchise.
                 </p>
-                <p class="card-text text-center"><small class="text-muted">Active from 2015 to 2019</small></p>
+
+                <p class="card-text text-center"><small>Since 2015</small></p>
             </div>
         </div>
     </div>
@@ -65,6 +66,36 @@ return (
         </div>
     </div>
 
+
+    <div class="mb-4">
+        <div class="text-light text-center p-3">
+            <div class="card-body">
+                <div className="image-social-icon">
+                    <img src={XLogo} alt="X Logo" />
+                </div>
+                <h5 class="card-title mb-2">Twitter</h5>
+                <p class="card-text">Over <strong>700 followers</strong> on <a href="https://x.com/RajithWasHere" class="text-light">Twitter</a>.</p>
+                <a href="https://x.com/RajithWasHere" class="btn btn-outline-light icon-btn">
+                    <img src={XLogo} alt="X Logo" class="icon-btn-logo" />RajithWasHere on Roblox
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <div class="card text-dark">
+            <img class="card-img-top masonry-image" loading="auto" src={require('../assets/img/dawn-of-heroes.jpg')} alt="Dawn Of Heroes Cover Art" />
+            <div class="card-body">
+                <h5 class="card-title text-center">Dawn of Heroes</h5>
+                <h6 class="card-subtitle text-center mb-3 text-muted">An Open-World PvP Superhero Game</h6>
+                <p class="card-text text-center">
+                    <a class="text-reset" href="https://www.roblox.com/games/262050135/Dawn-Of-Heroes">Dawn of Heroes</a> has been played <strong>33 million</strong> times and has been featured on Roblox multiple times.
+                </p>
+                <p class="card-text text-center"><small class="text-muted">Active from 2015 to 2019</small></p>
+            </div>
+        </div>
+    </div>
+
     <div class="mb-4">
         <div class="text-light text-center p-3">
             <div class="card-body">
@@ -76,22 +107,6 @@ return (
                 <a href="https://www.linkedin.com/in/rajith-rajathurai-9415a6252/" class="btn btn-outline-light icon-btn">
                     <img src={navIcon1} alt="LinkedIn Logo" class="icon-btn-logo" />Connect on LinkedIn
                 </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="mb-4">
-        <div class="card community-card text-light p-3">
-            <div class="card-body">
-                <h2 class="card-title text-center mb-2"><i class="fas fa-users"></i></h2>
-                <h5 class="card-title text-center">Dawn Of Heroes Community</h5>
-                <h6 class="card-subtitle text-center mb-3">Founder and Manager</h6>
-
-                <p class="card-text text-center">
-                    Built and managed a <a class="text-reset" href="https://www.roblox.com/communities/2971038/Dawn-Of-Heroes-Community#!/about">community</a> of over <strong>125.4K members</strong>. Led communication, posted development updates, and maintained long-term engagement around the Dawn Of Heroes franchise.
-                </p>
-
-                <p class="card-text text-center"><small>Since 2015</small></p>
             </div>
         </div>
     </div>
@@ -119,20 +134,7 @@ return (
         </div>
     </div>
     
-    <div class="mb-4">
-        <div class="text-light text-center p-3">
-            <div class="card-body">
-                <div className="image-social-icon">
-                    <img src={XLogo} alt="X Logo" />
-                </div>
-                <h5 class="card-title mb-2">Twitter</h5>
-                <p class="card-text">Over <strong>700 followers</strong> on <a href="https://x.com/RajithWasHere" class="text-light">Twitter</a>.</p>
-                <a href="https://x.com/RajithWasHere" class="btn btn-outline-light icon-btn">
-                    <img src={XLogo} alt="X Logo" class="icon-btn-logo" />RajithWasHere on Roblox
-                </a>
-            </div>
-        </div>
-    </div>
+
 
     <div class="mb-4">
         <div class="card custom-card text-light p-3">
@@ -141,7 +143,7 @@ return (
             <h5 class="card-title text-center">Invision Games</h5>
             <h6 class="card-subtitle text-center mb-3">Software Developer Intern</h6>
             <p class="card-text text-center">
-                Developed a full-feature production update for a live game with <strong>34M+ visits</strong>, including UI, backend/frontend logic, and 3D assets. Improved player experience with a new cosmetic system and optimized client-server workflows.
+                Developed a full-feature production update for a <a class="text-reset" href="https://www.roblox.com/games/103072644129928/Project-Power">live game</a> with <strong>34M+ visits</strong>, including UI, backend/frontend logic, and 3D assets. Enhanced player experience with a new cosmetic system.
             </p>
             <p class="card-text text-center"><small>October 2025</small></p>
             </div>

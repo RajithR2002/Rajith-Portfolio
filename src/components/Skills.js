@@ -5,6 +5,7 @@ import cssLogo from "../assets/img/css-logo.png";
 import cLogo from "../assets/img/c++-logo.png";
 import arduinoLogo from "../assets/img/arduino-logo.png";
 import reactLogo from "../assets/img/react-logo.png";
+import gitLogo from "../assets/img/git-logo.png";
 
 import luaLogo from "../assets/img/lua-logo.png";
 import blenderLogo from "../assets/img/blender-logo.png";
@@ -12,8 +13,6 @@ import robloxStudioLogo from "../assets/img/roblox-studio-logo.png";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -71,6 +70,10 @@ export const Skills = () => {
                             <h5>React</h5>
                         </div>
                         <div className="item">
+                            <img src={gitLogo} alt="Git Logo" />
+                            <h5>Git</h5>
+                        </div>
+                        <div className="item">
                             <img src={luaLogo} alt="Lua Logo" />
                             <h5>Lua</h5>
                         </div>
@@ -87,7 +90,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
     )
 }
