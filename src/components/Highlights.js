@@ -8,7 +8,6 @@ export const Highlights = () => {
 return (
 <section className="highlight" id="highlights">
 
-
 <div class="container mt-4">
 <div class="masonry-grid mb-4">
 
@@ -49,7 +48,7 @@ return (
             <div class="card-video-container">
                 <iframe
                     class="card-img-top"
-                    src="https://www.youtube.com/embed/4N1ILNygA9E"
+                    src="https://www.youtube.com/embed/YeftDFaD3Gw"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -57,27 +56,14 @@ return (
                 </iframe>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-center">Dawn Of Heroes 2 | Reveal Trailer</h5>
-                <p class="card-text text-center">I released the official reveal trailer for my upcoming game Dawn Of Heroes 2.</p>
+                <h5 class="card-title text-center">Dawn Of Heroes 2 | Expo Premiere</h5>
+                <h6 class="card-subtitle text-center mb-3 text-muted">GSC-23 EXPO</h6>
                 <p class="card-text text-center">
-                    <small class="text-reset">May 2023</small>
+                    I premiered the Dawn Of Heroes 2 trailer at the first official GSC Expo, an invite-only showcase highlighting top upcoming Roblox projects.
                 </p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="mb-4">
-        <div class="text-light text-center p-3">
-            <div class="card-body">
-                <div className="image-social-icon">
-                    <img src={XLogo} alt="X Logo" />
-                </div>
-                <h5 class="card-title mb-2">Twitter</h5>
-                <p class="card-text">Over <strong>700 followers</strong> on <a href="https://x.com/RajithWasHere" class="text-light">Twitter</a>.</p>
-                <a href="https://x.com/RajithWasHere" class="btn btn-outline-light icon-btn">
-                    <img src={XLogo} alt="X Logo" class="icon-btn-logo" />RajithWasHere on Roblox
-                </a>
+                <p class="card-text text-center">
+                    <small class="text-reset">Premiered May 20, 2023</small>
+                </p>
             </div>
         </div>
     </div>
@@ -133,8 +119,6 @@ return (
             </div>
         </div>
     </div>
-    
-
 
     <div class="mb-4">
         <div class="card custom-card text-light p-3">
@@ -170,7 +154,7 @@ return (
             <div class="card-video-container">
                 <iframe
                     class="card-img-top"
-                    src="https://www.youtube.com/embed/YeftDFaD3Gw"
+                    src="https://www.youtube.com/embed/4N1ILNygA9E"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -178,14 +162,26 @@ return (
                 </iframe>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-center">Dawn Of Heroes 2 | Expo Premiere</h5>
-                <h6 class="card-subtitle text-center mb-3 text-muted">GSC-23 EXPO</h6>
+                <h5 class="card-title text-center">Dawn Of Heroes 2 | Reveal Trailer</h5>
+                <p class="card-text text-center">I released the official reveal trailer for my upcoming game Dawn Of Heroes 2.</p>
                 <p class="card-text text-center">
-                    I premiered the Dawn Of Heroes 2 trailer at the first official GSC Expo, an invite-only showcase highlighting top upcoming Roblox projects.
+                    <small class="text-reset">May 2023</small>
                 </p>
-                <p class="card-text text-center">
-                    <small class="text-reset">Premiered May 20, 2023</small>
-                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <div class="text-light text-center p-3">
+            <div class="card-body">
+                <div className="image-social-icon">
+                    <img src={XLogo} alt="X Logo" />
+                </div>
+                <h5 class="card-title mb-2">Twitter</h5>
+                <p class="card-text">Over <strong>700 followers</strong> on <a href="https://x.com/RajithWasHere" class="text-light">Twitter</a>.</p>
+                <a href="https://x.com/RajithWasHere" class="btn btn-outline-light icon-btn">
+                    <img src={XLogo} alt="X Logo" class="icon-btn-logo" />RajithWasHere on Roblox
+                </a>
             </div>
         </div>
     </div>
