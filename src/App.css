@@ -460,7 +460,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .icon-btn-logo {
-  height: 15px;
+  height: 24px;
   width: auto;
   object-fit: contain;
   filter: invert(100%);
@@ -498,6 +498,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  
 }
 
 .card-video-container iframe {
@@ -518,6 +519,18 @@ color: white !important;
 .card.community-card,
 .card.community-card .card-body {
 background: linear-gradient(135deg, #3b3b8a , #24245e) !important;
+color: white !important;
+}
+
+.card.video-card,
+.card.video-card .card-body {
+background: linear-gradient(135deg, #5ba2b8 , #073e92) !important;
+color: white !important;
+}
+
+.card.game,
+.card.game .card-body {
+background: linear-gradient(135deg, #b4a940 , #cc7c04) !important;
 color: white !important;
 }
 
