@@ -1,6 +1,5 @@
-# My portfolio
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rajith Portfolio
+A personal portfolio built with React to showcase my projects, skills, and experience through a clean design.
 
 ## Available Scripts
 
